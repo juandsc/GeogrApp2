@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeogrApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_areas_geograficas">Areas Geograficas</string>
+    <string name="button_herramientas">Herramientas</string>
+    <string name="button_nueva_area">Crear Nueva Area</string>
+    <string name="button_brujula">Brujula de Geologo</string>
+    <string name="button_plano">Cargar Plano</string>
+    <string name="button_calidad">Calidad de Suelo</string>
+    <string name="button_crear_area">Crear</string>
+    <string name="button_delete_area">Eliminar Area Geografica</string>
+    <string name="button_delete_compass">Eliminar Medidas</string>
+    <string name="button_delete_quality">Eliminar Medidas</string>
+    <string name="newMeasure">Realizar Nueva Medicion</string>
+    <string name="string_nombre_area">Nombre: </string>
+    <string name="string_fecha_inicio_levantamiento">Fecha de Inicio: </string>
+    <string name="string_decripcion_area">Descripción: </string>
+    <string name="informe_button">Generar Informe</string>
+    <string name="title_activity_herramientas">Herramientas</string>
+    <string name="title_activity_brujula">Brujula</string>
+    <string name="title_activity_areas_geograficas">AreasGeograficas</string>
+    <string name="title_activity_crear_area_geografica">CrearAreaGeografica</string>
+    <string name="title_activity_calidad_de_suelo">CalidadDeSuelo</string>
+    <string name="title_activity_visualizarplano">visualizarplano</string>
+    <string name="title_posicionGPS">Localización Gps</string>
+    <string name="inclinacion">Inclinación</string>
+    <string name="title_activity_detail_area">DetailArea</string>
+    <string name="title_activity_brujula_sin_area">BrujulaSinArea</string>
+    <string name="title_activity_calidad_de_suelo__sin_area_g">CalidadDeSuelo_SinAreaG</string>
+    <string name="title_activity_compass_measures">CompassMeasures</string>
+    <string name="title_activity_create_new_compass">CreateNewCompass</string>
+    <string name="title_activity_details_compass">DetailsCompass</string>
+    <string name="title_activity_quality_area">QualityArea</string>
+    <string name="toolbar_Calidades_de_Rocas">Calidades de Roca</string>
+    <string name="toolbar_quality_detail">Detalles Medidas Calidad de Roca</string>
+    <string name="title_activity_create_new_quality">CreateNewQuality</string>
+    <string name="title_activity_detail_quality">DetailQuality</string>
+
+</resources>

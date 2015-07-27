@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jds.dsd.geograpp.herramientas.f_orientacion_brujula_sinAreaG"
+    android:background="#ffffffff"
+    android:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/txtAngle"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:text="Heading: 0.0"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff000000" />
+
+        <ImageView
+            android:id="@+id/imgViewCompass"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/flecha"
+            android:layout_gravity="left|bottom"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="42dp"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Latitud:"
+            android:id="@+id/LblPosLatitud"
+            android:layout_gravity="right|bottom"
+            android:layout_below="@+id/txt_Inclinacion"
+            android:layout_alignLeft="@+id/txt_Inclinacion"
+            android:layout_alignStart="@+id/txt_Inclinacion"
+            android:layout_marginTop="36dp"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="   0.0°"
+            android:id="@+id/txt_Inclinacion"
+            android:layout_gravity="left|bottom"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_below="@+id/textView6"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/ubicacion"
+            android:layout_alignBottom="@+id/LblPosLongitud"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:layout_toLeftOf="@+id/LblPosLongitud"
+            android:layout_toStartOf="@+id/LblPosLongitud"
+            android:layout_alignTop="@+id/LblPosLatitud"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Longitud:"
+            android:id="@+id/LblPosLongitud"
+
+            android:layout_below="@+id/LblPosLatitud"
+            android:layout_alignLeft="@+id/LblPosLatitud"
+            android:layout_alignStart="@+id/LblPosLatitud"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/inclinacion"
+            android:id="@+id/textView6"
+
+            android:layout_marginTop="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff000000" />
+    </RelativeLayout>
+
+</RelativeLayout>

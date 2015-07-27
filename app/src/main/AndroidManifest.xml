@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jds.dsd.geograpp" >
+
+    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+    <uses-feature android:name="android.hardware.sensor." />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".home.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".herramientas.Herramientas"
+            android:label="@string/title_activity_herramientas" >
+        </activity>
+        <activity
+            android:name=".herramientas.Brujula"
+            android:label="@string/title_activity_brujula"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".areasGeograficas.AreasGeograficas"
+            android:label="@string/title_activity_areas_geograficas" >
+        </activity>
+        <activity
+            android:name=".areasGeograficas.CrearAreaGeografica"
+            android:label="@string/title_activity_crear_area_geografica" >
+        </activity>
+        <activity
+            android:name=".herramientas.CalidadDeSuelo"
+            android:label="@string/title_activity_calidad_de_suelo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".herramientas.visualizarplano"
+            android:label="@string/title_activity_visualizarplano"
+            android:screenOrientation="landscape" >
+            >
+        </activity>
+        <activity
+            android:name=".areasGeograficas.DetailArea"
+            android:label="@string/title_activity_detail_area" >
+        </activity>
+        <activity
+            android:name=".herramientas.BrujulaSinArea"
+            android:label="@string/title_activity_brujula_sin_area"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".herramientas.CalidadDeSuelo_SinAreaG"
+            android:label="@string/title_activity_calidad_de_suelo__sin_area_g"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".areasGeograficas.CompassMeasures"
+            android:label="@string/title_activity_compass_measures" >
+        </activity>
+        <activity
+            android:name=".areasGeograficas.CreateNewCompass"
+            android:label="@string/title_activity_create_new_compass" >
+        </activity>
+        <activity
+            android:name=".areasGeograficas.DetailsCompass"
+            android:label="@string/title_activity_details_compass" >
+        </activity>
+        <activity
+            android:name=".areasGeograficas.QualityArea"
+            android:label="@string/title_activity_quality_area" >
+        </activity>
+        <activity
+            android:name=".areasGeograficas.CreateNewQuality"
+            android:label="@string/title_activity_create_new_quality" >
+        </activity>
+        <activity
+            android:name=".areasGeograficas.DetailQuality"
+            android:label="@string/title_activity_detail_quality" >
+        </activity>
+    </application>
+
+</manifest>
