@@ -120,8 +120,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="42dp"
-        android:layout_marginRight="42dp"
+        android:layout_marginBottom="65dp"
+        android:layout_marginRight="20dp"
         android:background="@color/primary_color"
         android:paddingLeft="10dp"
         android:paddingRight="10dp" />
